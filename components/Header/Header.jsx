@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
  // Images
-import logoImg from '@/assets/logo.png'
+import logoImg from '@/public/images/logo.png'
 
 // Styles
 import styles from '@/components/Header/header.module.css'
