@@ -21,8 +21,6 @@ export default function Header(){
           <Image 
             src={logoImg} 
             alt="A plate whit food on it"
-            width={80}
-            height={80}
             priority
           />
           NextLevel Food
