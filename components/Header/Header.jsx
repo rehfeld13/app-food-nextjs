@@ -10,6 +10,8 @@ import styles from '@/components/Header/header.module.css'
 
 // Components
 import HeaderBackground from "../HeaderBackground/HeaderBackground";
+import NavLink from "../NavLink/NavLink";
+
 
 export default function Header(){
   return(
@@ -29,10 +31,14 @@ export default function Header(){
         <nav className={styles.nav}>
           <ul>
             <li>
-              <Link href={"meals"}>Browse Meals</Link>
+              <NavLink href={"/meals"}>
+                Browse Meals
+              </NavLink>
             </li>
             <li>
-              <Link href={"community"}>Foodies Community</Link>
+              <NavLink href={"/community"}>
+                Community
+              </NavLink>
             </li>
           </ul>
         </nav>
