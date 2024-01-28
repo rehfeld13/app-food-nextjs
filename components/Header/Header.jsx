@@ -37,7 +37,7 @@ export default function Header(){
             </li>
             <li>
               <NavLink href={"/community"}>
-                Community
+                Foodies Community
               </NavLink>
             </li>
           </ul>
