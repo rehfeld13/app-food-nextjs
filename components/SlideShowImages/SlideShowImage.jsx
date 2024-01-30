@@ -7,13 +7,13 @@ import { useEffect, useState } from 'react';
 import Image from 'next/image';
 
 // Images
-import burgerImg from '@/public/images/burger.jpg';
-import curryImg from '@/public/images/curry.jpg';
-import dumplingsImg from '@/public/images/dumplings.jpg';
-import macncheeseImg from '@/public/images/macncheese.jpg';
-import pizzaImg from '@/public/images/pizza.jpg';
-import schnitzelImg from '@/public/images/schnitzel.jpg';
-import tomatoSaladImg from '@/public/images/tomato-salad.jpg';
+import burgerImg from '@/images/burger.jpg';
+import curryImg from '@/images/curry.jpg';
+import dumplingsImg from '@/images/dumplings.jpg';
+import macncheeseImg from '@/images/macncheese.jpg';
+import pizzaImg from '@/images/pizza.jpg';
+import schnitzelImg from '@/images/schnitzel.jpg';
+import tomatoSaladImg from '@/images/tomato-salad.jpg';
 
 // Styles
 import styles from './slideShowImage.module.css';
